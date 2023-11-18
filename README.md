@@ -16,7 +16,9 @@ localhost:8078/update
 You can edit this host and port in .env file.
 
 You need to install Node.JS and PM2 proccess manager and create proccess by command: pm2 start *path to your repository*/start_ss_manager.sh --name "ss-manager"
+
 Show app logs: pm2 logs ss-manager
+
 Restart app: pm2 restart ss-manager
 
 If you dont like to use Node and pm2, you can take a direct python3 command from start_ss_manager.py.
